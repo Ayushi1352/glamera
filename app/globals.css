@@ -1,26 +1,74 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --font-primary: Arial, sans-serif;
+  --font-text: Arial, sans-serif;
+  --font-heading: Georgia, serif;
+  --font-display: Georgia, serif;
+  --font-nav: Arial, sans-serif;
+  --font-form: Arial, sans-serif;
+  --font-script: cursive;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Space above and below every section (components/ui/sectionSpace.ts): the same on every screen */
+  --section-space: 60px;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Glaméra theme (from the logo and the design: deep maroon and rose on white and blush) */
+  /* Brand */
+  --color-primary: #7a0234;
+  --color-primary-bright: #8e0631;
+  --color-primary-dark: #5e0226;
+  --color-rose: #c97c8c;
+  --color-rose-line: #ab4d5e;
+  --color-rose-soft: #d9a3ae;
+  --color-rose-pale: #e8c4cc;
+  /* Hover: maroon buttons turn rose pink, outlined ones get a pale pink fill */
+  --color-hover: #c94f6f;
+  --color-hover-soft: #fbe6ec;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Text */
+  --color-heading: #242223;
+  /* menu, footer titles and client names are almost black in the design */
+  --color-ink: #121212;
+  --color-text-light: #7f7d7e;
+  --color-text: #373838;
+  --color-text-soft: #4b4a4a;
+  --color-text-muted: #5f5e5e;
+  --color-white: #ffffff;
+
+  /* Backgrounds and borders */
+  --color-bg-main: #ffffff;
+  --color-bg-hero: #fcf9f8;
+  --color-bg-footer: #fdf7f7;
+  --color-bg-circle: #fcf2f0;
+  --color-bg-card: #fcf6f5;
+  --color-bg-card-top: #fbf3f3;
+  --color-bg-quote: #fdeeef;
+  --color-bg-review: #fef5f6;
+  --color-bg-review-bottom: #fff8f8;
+  --color-bg-placeholder: #f3e4e7;
+  /* Shown on both sides of the page when the screen is wider than 1920px (or the browser is zoomed out). */
+  --color-bg-backdrop: #f7eeee;
+  --color-border: #f0dfe0;
+  --color-border-card: #f1e2e2;
+  --color-border-field: #d6aebb;
+  --color-divider: #e9cfd3;
+  --color-divider-warm: #e6d5d1;
+  --color-watermark: #f1e7e6;
+  --color-dot: #ead0d1;
+
+  /* Overlays and shadows */
+  --color-white-80: rgba(255, 255, 255, 0.8);
+  --color-black-20: rgba(0, 0, 0, 0.2);
+  --color-black-70: rgba(0, 0, 0, 0.7);
+  --color-black-85: rgba(0, 0, 0, 0.85);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-shadow-card: rgba(122, 2, 52, 0.08);
+  --color-shadow-soft: rgba(122, 2, 52, 0.14);
+  --color-shadow-menu: rgba(36, 34, 35, 0.25);
+
+  /* Decorations drawn in code (components/ui/LineArt.tsx) */
+  --color-decor: #f6dde5;
+  --color-decor-light: #fbebf0;
 }

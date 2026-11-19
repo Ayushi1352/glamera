@@ -1,0 +1,583 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-jost)",
+        "text": "var(--font-kumbh)",
+        "heading": "var(--font-newsreader)",
+        "display": "var(--font-pt-serif)",
+        "nav": "var(--font-lato)",
+        "form": "var(--font-inter)",
+        "script": "var(--font-allura)"
+      }
+    },
+    "metadata": {
+      "title": "Glaméra | Beauty Salon & Spa",
+      "description": "Expert beauty, skincare and wellness treatments for a more confident you. Facials, waxing, make-up, nails, hair care and bridal packages at Glaméra Beauty Salon & Spa.",
+      "icon": "/images/favicon.png",
+      "lang": "en"
+    },
+    "company": {
+      "name": "Glaméra",
+      "logo": "/images/glamera-logo.webp",
+      "logoAlt": "Glaméra — Beauty Salon & Spa",
+      "logoWidth": 1200,
+      "logoHeight": 388,
+      "contactItems": [
+        {
+          "id": "address",
+          "icon": "LuMapPin",
+          "title": "Our Address",
+          "lines": [
+            "123 Main Street,",
+            "New York, NY 10001, USA"
+          ],
+          "url": "https://www.google.com/maps/search/?api=1&query=123+Main+Street+New+York+NY+10001+USA"
+        },
+        {
+          "id": "email",
+          "icon": "LuMail",
+          "title": "Email Us",
+          "lines": [
+            "info@xyz.com"
+          ],
+          "url": "mailto:info@xyz.com"
+        },
+        {
+          "id": "phone",
+          "icon": "LuPhone",
+          "title": "Call Us",
+          "lines": [
+            "+1 0000000000"
+          ],
+          "url": "tel:+10000000000"
+        }
+      ]
+    },
+    "Footer": {
+      "description": "Your destination for expert beauty care,\nrelaxation, and a refreshing, confident look.",
+      "socialLabel": "Follow Glaméra",
+      "socialLinks": [
+        {
+          "id": "instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/"
+        },
+        {
+          "id": "facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "id": "youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "id": "pinterest",
+          "icon": "FaPinterestP",
+          "label": "Pinterest",
+          "url": "https://www.pinterest.com/"
+        }
+      ],
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "home",
+          "label": "Home",
+          "url": "#home"
+        },
+        {
+          "id": "about-us",
+          "label": "About Us",
+          "url": "#about"
+        },
+        {
+          "id": "services",
+          "label": "Services",
+          "url": "#services"
+        },
+        {
+          "id": "packages",
+          "label": "Packages",
+          "url": "#packages"
+        }
+      ],
+      "moreLinksTitle": "More Links",
+      "moreLinks": [
+        {
+          "id": "gallery",
+          "label": "Gallery",
+          "url": "#gallery"
+        },
+        {
+          "id": "testimonials",
+          "label": "Testimonials",
+          "url": "#testimonials"
+        },
+        {
+          "id": "contact-us",
+          "label": "Contact Us",
+          "url": "#contact"
+        }
+      ],
+      "contactTitle": "Get in Touch",
+      "contactIds": [
+        "address",
+        "email",
+        "phone"
+      ],
+      "copyrightText": "© {year} Glaméra Beauty Salon & Spa. All Rights Reserved. Powered by Lestow."
+    }
+  },
+  "categories": {
+    "BeautySalon": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "BeautySalonHeader1": {
+              "logoUrl": "/",
+              "homeLabel": "Glaméra — back to top",
+              "navLinks": [
+                {
+                  "id": "home",
+                  "label": "Home",
+                  "url": "#home"
+                },
+                {
+                  "id": "about-us",
+                  "label": "About Us",
+                  "url": "#about"
+                },
+                {
+                  "id": "services",
+                  "label": "Services",
+                  "url": "#services"
+                },
+                {
+                  "id": "packages",
+                  "label": "Packages",
+                  "url": "#packages"
+                },
+                {
+                  "id": "gallery",
+                  "label": "Gallery",
+                  "url": "#gallery"
+                },
+                {
+                  "id": "testimonials",
+                  "label": "Testimonials",
+                  "url": "#testimonials"
+                }
+              ],
+              "buttonText": "Contact Us",
+              "buttonUrl": "#contact",
+              "mainNavLabel": "Main navigation",
+              "mobileNavLabel": "Mobile navigation",
+              "openMenuLabel": "Open menu",
+              "closeMenuLabel": "Close menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "BeautySalonHero1": {
+              "id": "home",
+              "titleTop": "Reveal Your",
+              "titleBottom": "Natural",
+              "titleAccent": "Beauty",
+              "description": "Expert Beauty, Skincare & Wellness Treatments for a\nMore Confident You.",
+              "watermark": "Glaméra",
+              "buttonText": "View Our Services",
+              "buttonUrl": "#services",
+              "photos": [
+                {
+                  "id": "spa-candles",
+                  "image": "/images/hero-spa-candles.webp",
+                  "imageAlt": "Rolled maroon towels, a lit candle, a serum bottle and rose petals beside cherry blossoms"
+                },
+                {
+                  "id": "facial-treatment",
+                  "image": "/images/hero-facial-treatment.webp",
+                  "imageAlt": "Woman relaxing with a towel on her head while a face mask is brushed on"
+                }
+              ]
+            }
+          }
+        },
+        "About": {
+          "variants": {
+            "BeautySalonAbout1": {
+              "id": "about",
+              "label": "About Us",
+              "titleTop": "Welcome to",
+              "titleAccent": "Glaméra",
+              "subtitle": "Beauty Salon & Spa",
+              "description": "At Glaméra, we believe beauty is a blend of care, expertise, and\nself-expression. Our skilled team is dedicated to providing personalized\nbeauty, skincare, and wellness treatments that enhance your natural glow\nand boost your confidence.",
+              "image": "/images/about-salon-interior.webp",
+              "imageAlt": "Glaméra salon with pink styling chairs, a marble counter and lit oval mirrors",
+              "badgeWords": [
+                "Beauty",
+                "Hair",
+                "Skin",
+                "Nails",
+                "Spa"
+              ],
+              "visitIcon": "LuMapPin",
+              "visitTitle": "Visit Our Salon",
+              "visitText": "Book Your Beauty Experience Today",
+              "visitUrl": "#contact"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "BeautySalonServices1": {
+              "id": "services",
+              "label": "Our Services",
+              "titleTop": "Your Secret Place of",
+              "titleAccent": "Beauty",
+              "description": "A range of expert beauty and wellness services designed to refresh, enhance, and\nbring out your natural glow.",
+              "items": [
+                {
+                  "id": "facials",
+                  "icon": "FacialIcon",
+                  "title": "Facials",
+                  "text": "Rejuvenate your skin with\npersonalized facial treatments\nfor a healthy, radiant glow."
+                },
+                {
+                  "id": "waxing",
+                  "icon": "WaxingIcon",
+                  "title": "Waxing",
+                  "text": "Smooth, gentle, and\neffective hair removal for\nlong-lasting results."
+                },
+                {
+                  "id": "make-up",
+                  "icon": "MakeupIcon",
+                  "title": "Make-Up",
+                  "text": "From natural to glamorous,\nget a look that suits\nyour style and occasion."
+                },
+                {
+                  "id": "nails",
+                  "icon": "NailsIcon",
+                  "title": "Nails",
+                  "text": "Professional nail care and\nstylish finishes for\nbeautiful, healthy nails."
+                }
+              ]
+            }
+          }
+        },
+        "Packages": {
+          "variants": {
+            "BeautySalonPackages1": {
+              "id": "packages",
+              "label": "Our Packages",
+              "titleTop": "Beauty & Wellness",
+              "titleAccent": "Packages",
+              "description": "Curated service packages that combine care, relaxation, and complete grooming.",
+              "checkIcon": "LuCheck",
+              "items": [
+                {
+                  "id": "glow",
+                  "nameAccent": "Glow",
+                  "name": "Package",
+                  "description": "Revive your natural glow with our essential\nskincare package.",
+                  "image": "/images/package-glow.webp",
+                  "imageAlt": "Woman with a towel wrap getting a cream face mask brushed on",
+                  "decor": "lotus",
+                  "features": [
+                    {
+                      "id": "deep-cleansing-facial",
+                      "text": "Deep Cleansing Facial"
+                    },
+                    {
+                      "id": "face-massage",
+                      "text": "Face Massage"
+                    },
+                    {
+                      "id": "hydrating-mask",
+                      "text": "Hydrating Mask"
+                    }
+                  ]
+                },
+                {
+                  "id": "hair-care",
+                  "nameAccent": "Hair Care",
+                  "name": "Package",
+                  "description": "Nourish, repair, and style your hair for a\nhealthy, glossy look.",
+                  "image": "/images/package-hair-care.webp",
+                  "imageAlt": "Woman relaxing at the basin during a hair wash",
+                  "decor": "hair",
+                  "features": [
+                    {
+                      "id": "hair-spa-treatment",
+                      "text": "Hair Spa Treatment"
+                    },
+                    {
+                      "id": "scalp-massage",
+                      "text": "Scalp Massage"
+                    },
+                    {
+                      "id": "hair-styling",
+                      "text": "Hair Styling"
+                    }
+                  ]
+                },
+                {
+                  "id": "bridal",
+                  "nameAccent": "Bridal",
+                  "name": "Package",
+                  "description": "A complete pre-bridal and bridal package\nfor your special day.",
+                  "image": "/images/package-bridal.webp",
+                  "imageAlt": "Bride with a flower-decorated bun, a maang tikka and long earrings",
+                  "decor": "rings",
+                  "features": [
+                    {
+                      "id": "pre-bridal-treatments",
+                      "text": "Pre-Bridal Treatments"
+                    },
+                    {
+                      "id": "bridal-make-up",
+                      "text": "Bridal Make-Up"
+                    },
+                    {
+                      "id": "hair-styling-draping",
+                      "text": "Hair Styling & Draping"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "BeautySalonGallery1": {
+              "id": "gallery",
+              "label": "Our Gallery",
+              "titleTop": "A Glimpse of",
+              "titleAccent": "Our Work",
+              "description": "Explore our gallery to see real transformations, beautiful styles, and happy clients.",
+              "filters": [
+                {
+                  "id": "all",
+                  "label": "All"
+                },
+                {
+                  "id": "facials",
+                  "label": "Facials"
+                },
+                {
+                  "id": "hair",
+                  "label": "Hair"
+                },
+                {
+                  "id": "make-up",
+                  "label": "Make-Up"
+                },
+                {
+                  "id": "nails",
+                  "label": "Nails"
+                }
+              ],
+              "items": [
+                {
+                  "id": "facial-mask",
+                  "title": "Facial Mask",
+                  "category": "facials",
+                  "image": "/images/gallery-facial-mask.webp"
+                },
+                {
+                  "id": "wavy-hair",
+                  "title": "Soft Waves",
+                  "category": "hair",
+                  "image": "/images/gallery-wavy-hair.webp"
+                },
+                {
+                  "id": "bridal-look",
+                  "title": "Bridal Look",
+                  "category": "make-up",
+                  "image": "/images/gallery-bridal-look.webp"
+                },
+                {
+                  "id": "nail-art",
+                  "title": "Maroon Nails",
+                  "category": "nails",
+                  "image": "/images/gallery-nail-art.webp"
+                },
+                {
+                  "id": "pedicure",
+                  "title": "Flower Pedicure",
+                  "category": "nails",
+                  "image": "/images/gallery-pedicure.webp"
+                },
+                {
+                  "id": "eye-makeup",
+                  "title": "Eye Make-Up",
+                  "category": "make-up",
+                  "image": "/images/gallery-eye-makeup.webp"
+                },
+                {
+                  "id": "hair-wash",
+                  "title": "Hair Spa",
+                  "category": "hair",
+                  "image": "/images/gallery-hair-wash.webp"
+                },
+                {
+                  "id": "bridal-bun",
+                  "title": "Bridal Bun",
+                  "category": "hair",
+                  "image": "/images/gallery-bridal-bun.webp"
+                }
+              ],
+              "filterLabel": "Filter photos",
+              "viewerLabel": "Photo viewer",
+              "openLabel": "Open photo: {title}",
+              "closeLabel": "Close photo",
+              "previousLabel": "Previous photo",
+              "nextLabel": "Next photo"
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "BeautySalonTestimonials1": {
+              "id": "testimonials",
+              "label": "Testimonials",
+              "titleTop": "What Our",
+              "titleAccent": "Clients Say",
+              "description": "Real experiences from our happy and valued clients.",
+              "ratingLabel": "Rated {stars} out of 5",
+              "showLabel": "Show review by {name}",
+              "startIndex": 1,
+              "items": [
+                {
+                  "id": "rachel-a",
+                  "name": "Rachel A.",
+                  "time": "2 months ago",
+                  "quote": "Absolutely loved the service! The\nstaff is professional, the ambiance is\nso relaxing, and the results were\namazing. Highly recommended!",
+                  "image": "/images/client-rachel.webp",
+                  "stars": 4
+                },
+                {
+                  "id": "kelly-walker",
+                  "name": "Kelly Walker",
+                  "time": "13 days ago",
+                  "quote": "A wonderful experience from start\nto finish. The team really understands\nyour needs and gives personalized\ncare. I’m always happy with the results!",
+                  "image": "/images/client-kelly.webp",
+                  "stars": 5
+                },
+                {
+                  "id": "evelyn-martinez",
+                  "name": "Evelyn Martinez",
+                  "time": "19 days ago",
+                  "quote": "Great place for beauty and self-care!\nThe services are top-notch, and\nthe team is friendly and attentive.\nI always leave feeling refreshed\nand confident.",
+                  "image": "/images/client-evelyn.webp",
+                  "stars": 4
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "BeautySalonContact1": {
+              "id": "contact",
+              "label": "Contact Us",
+              "titleTop": "Get in Touch",
+              "titleAccent": "With Us",
+              "descriptionLines": [
+                "Have a question, need a consultation, or want to book a service?",
+                "We’re here to help — reach out to us today."
+              ],
+              "image": "/images/contact-stylist.webp",
+              "imageAlt": "Smiling Glaméra stylist taking notes on a tablet while talking with a client"
+            }
+          }
+        },
+        "ContactForm": {
+          "variants": {
+            "BeautySalonContactForm1": {
+              "fields": {
+                "name": {
+                  "placeholder": "Your Name",
+                  "icon": "LuUser"
+                },
+                "email": {
+                  "placeholder": "Your Email",
+                  "icon": "EnvelopeIcon"
+                },
+                "date": {
+                  "placeholder": "Select Date",
+                  "icon": "CalendarIcon"
+                },
+                "service": {
+                  "placeholder": "Service Type",
+                  "icon": "LuLayoutGrid"
+                },
+                "message": {
+                  "placeholder": "How can we help you? Feel free to get in touch!",
+                  "icon": "LuMessageSquareText"
+                }
+              },
+              "packageOption": "{title}",
+              "consentText": "I agree that my submitted data is",
+              "consentLinkText": "collected and stored.",
+              "consentUrl": "#contact",
+              "button": "Send Message",
+              "sending": "Sending…",
+              "successTitle": "Thank you, {name}!",
+              "success": "Your message has been received. We’ll get back to you shortly to confirm your appointment.",
+              "closeLabel": "Close message"
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "template-1": {
+          "shared": {
+            "Header": "BeautySalonHeader1",
+            "Footer": "common.Footer"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "BeautySalonHero1"
+                },
+                {
+                  "key": "About",
+                  "component": "BeautySalonAbout1"
+                },
+                {
+                  "key": "Services",
+                  "component": "BeautySalonServices1"
+                },
+                {
+                  "key": "Packages",
+                  "component": "BeautySalonPackages1"
+                },
+                {
+                  "key": "Gallery",
+                  "component": "BeautySalonGallery1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "BeautySalonTestimonials1"
+                },
+                {
+                  "key": "Contact",
+                  "component": "BeautySalonContact1"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
