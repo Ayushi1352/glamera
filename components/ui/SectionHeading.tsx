@@ -11,7 +11,7 @@ type LabelProps = {
 };
 
 /** Small spaced-out maroon uppercase label between two thin rose lines */
-export const SectionLabel = ({ label, align = "center", className = "" }: LabelProps) => {
+const SectionLabel = ({ label, align = "center", className = "" }: LabelProps) => {
   const line = <span aria-hidden="true" className="h-[0.0938rem] w-12 shrink-0 bg-[var(--color-rose-line)] sm:w-16 lg:w-[4.875rem]" />;
   return (
     <p

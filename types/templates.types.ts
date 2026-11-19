@@ -49,7 +49,6 @@ export interface ContactItem {
 }
 
 export interface CompanyData {
-  name: string;
   logo: string;
   logoAlt: string;
   logoWidth: number;

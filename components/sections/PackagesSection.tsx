@@ -24,7 +24,7 @@ const PackageCard = ({ item, checkIcon, index }: { item: PackageItem; checkIcon:
       <div className="relative aspect-[574/281] overflow-hidden bg-[var(--color-bg-placeholder)]">
         <Image src={item.image} alt={item.imageAlt} fill quality={90} sizes="(min-width: 1024px) 30vw, (min-width: 768px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />
       </div>
-      <div className="relative isolate flex-1 px-6 pb-8 pt-6 lg:px-[2.625rem] lg:pb-[2.0625rem] lg:pt-[0.8906rem]">
+      <div className="relative isolate flex-1 px-6 pb-8 pt-6 lg:px-[2.625rem] lg:pb-[2.0625rem] lg:pt-[0.75rem]">
         {decor && <decor.Art className={`pointer-events-none absolute -z-10 h-auto text-[var(--color-rose-pale)] opacity-70 ${decor.className}`} strokeWidth={3.5} />}
         <h3 className="font-heading text-[2rem] font-[460] leading-tight text-[var(--color-heading)] lg:text-[2.4375rem] lg:leading-[3.0938rem]">
           <span className="font-[460] italic text-[var(--color-primary)]">{item.nameAccent}</span> {item.name}
