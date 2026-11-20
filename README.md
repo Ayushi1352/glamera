@@ -40,7 +40,6 @@ Newsreader (titles), Jost (package text), Kumbh Sans (hero, About, services, tes
 ## Images and icons
 
 - **Photos** (`public/images/*.webp`) are plain pictures; the shapes are drawn with CSS on top of them (the About oval with its tilted outline, the Contact arch with its outline, the round client photos). A new photo only needs to replace the file with the same name.
-- `contact-stylist.webp` is still a plain placeholder: replace it with the stylist photo.
 - **Icons** are [react-icons](https://react-icons.github.io/react-icons/) names stored in `templates.json`. The four service icons, the envelope and the calendar are drawn for this design in `components/ui/Icon.tsx`.
 - **Line drawings** (the pale lotus, hair profile and rings on the package cards, the profile in the About badge, the footer leaves) are SVG in `components/ui/LineArt.tsx`.
 
