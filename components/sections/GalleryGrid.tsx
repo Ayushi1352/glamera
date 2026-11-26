@@ -56,7 +56,7 @@ export const GalleryGrid = ({ data }: { data: GalleryData }) => {
       </div>
 
       {/* keyed by filter, so the photos fade in again when the filter changes */}
-      <div key={filter} className="mt-8 grid grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-4 lg:mt-[2.3906rem] lg:gap-[0.6094rem]">
+      <div key={filter} className="mt-6 grid grid-cols-2 gap-2.5 sm:mt-8 sm:gap-3 md:grid-cols-4 lg:mt-[2.3906rem] lg:gap-[0.6094rem]">
         {items.map((photo, i) => (
           <button
             key={photo.id}

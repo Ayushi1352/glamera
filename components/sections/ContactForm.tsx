@@ -72,7 +72,7 @@ export const ContactForm = ({ data, serviceOptions }: { data?: ContactFormData; 
       onSubmit={submit.onSubmit}
       onInput={submit.onInput}
       aria-busy={submit.sending}
-      className="mt-8 grid gap-4 sm:grid-cols-2 lg:mt-[3.0938rem] lg:gap-x-[1.8281rem] lg:gap-y-[1.125rem]"
+      className="mt-6 grid gap-4 sm:mt-8 sm:grid-cols-2 lg:mt-[3.0938rem] lg:gap-x-[1.8281rem] lg:gap-y-[1.125rem]"
     >
       <Field icon={fields.name.icon}>
         <input name="name" required placeholder={fields.name.placeholder} aria-label={fields.name.placeholder} autoComplete="name" className={field} />

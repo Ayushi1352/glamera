@@ -17,7 +17,10 @@ const ctaClass =
   "inline-flex items-center justify-center rounded-full bg-[var(--color-primary)] font-nav font-bold text-[var(--color-white)] transition-[background-color,transform] duration-300 hover:-translate-y-0.5 hover:bg-[var(--color-hover)]";
 
 export const Header = ({ data, company }: { data?: HeaderData; company: CompanyData }) => {
-  const [ids] = useState(() => data?.navLinks.map((link) => sectionId(link.url)) ?? []);
+  const [ids] = useState(() => [
+    ...(data?.navLinks.map((link) => sectionId(link.url)) ?? []),
+    ...(data?.buttonUrl.startsWith("#") ? [sectionId(data.buttonUrl)] : []),
+  ]);
   const { active, scrolled } = useActiveSection(ids);
   const [open, setOpen] = useState(false);
 

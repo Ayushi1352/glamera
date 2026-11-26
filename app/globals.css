@@ -11,8 +11,8 @@
   --font-form: Arial, sans-serif;
   --font-script: cursive;
 
-  /* Space above and below every section (components/ui/sectionSpace.ts): the same on every screen */
-  --section-space: 60px;
+  /* Space above and below every section (components/ui/sectionSpace.ts): tighter on mobile, 60px on desktop */
+  --section-space: 36px;
 
   /* Glaméra theme (from the logo and the design: deep maroon and rose on white and blush) */
   /* Brand */
@@ -70,4 +70,16 @@
   /* Decorations drawn in code (components/ui/LineArt.tsx) */
   --color-decor: #f6dde5;
   --color-decor-light: #fbebf0;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --section-space: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --section-space: 60px;
+  }
 }

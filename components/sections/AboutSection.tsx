@@ -3,6 +3,7 @@ import type { AboutData } from "@/types/templates.types";
 import { Icon } from "@/components/ui/Icon";
 import { HairProfileArt } from "@/components/ui/LineArt";
 import { DesignFrame } from "@/components/ui/DesignFrame";
+import { sectionTitleSize } from "@/components/ui/SectionHeading";
 import { sectionSpace } from "@/components/ui/sectionSpace";
 
 /** Round badge: the words around a circle (clockwise, starting at the bottom left) with a woman's profile in the middle */
@@ -40,7 +41,7 @@ export const AboutSection = ({ data }: { data?: AboutData }) => {
       <div className={`relative mx-auto max-w-[90rem] px-4 sm:px-6 lg:px-0 ${sectionSpace}`}>
         {/* the content runs from the top of the oval outline (206) to its foot (1121): 915 design px */}
         <DesignFrame height={42.8906} offset={9.6563}>
-        <div className="grid gap-12 md:grid-cols-[1fr_1.1fr] md:items-center lg:block">
+        <div className="grid gap-8 sm:gap-10 md:grid-cols-[1fr_1.1fr] md:items-center lg:block">
         {/* photo: an upright oval; the outline is the same oval turned 12°, so it shows at the top right and bottom left */}
         <div data-reveal className="relative mx-auto aspect-[733/915] w-full max-w-[26rem] lg:absolute lg:left-[5.8125rem] lg:top-[9.6563rem] lg:w-[34.3594rem] lg:max-w-none">
           <svg viewBox="0 0 733 915" className="absolute inset-0 size-full overflow-visible text-[var(--color-rose-soft)]" aria-hidden="true">
@@ -58,7 +59,7 @@ export const AboutSection = ({ data }: { data?: AboutData }) => {
               {data.label}
               <span aria-hidden="true" className="h-[2px] w-16 bg-current lg:mt-[0.4688rem] lg:h-[0.1875rem] lg:w-[7.3125rem]" />
             </p>
-            <h2 className="mt-3 font-display text-[length:min(2.5rem,calc((100vw-2rem)/10))] font-normal uppercase leading-[1.1] tracking-[-0.045em] text-[var(--color-heading)] sm:text-[2.6rem] lg:absolute lg:left-[44.0156rem] lg:top-[27.0469rem] lg:mt-0 lg:whitespace-nowrap lg:text-[3.75rem] lg:leading-none">
+            <h2 className={`mt-3 font-display ${sectionTitleSize} font-normal uppercase leading-[1.1] tracking-[-0.045em] text-[var(--color-heading)] lg:absolute lg:left-[44.0156rem] lg:top-[27.0469rem] lg:mt-0 lg:whitespace-nowrap lg:leading-none`}>
               {data.titleTop} <span className="font-bold text-[var(--color-primary)]">{data.titleAccent}</span>
             </h2>
             <p className="mt-3 font-text text-base font-light uppercase tracking-[0.3em] text-[var(--color-text)] sm:text-lg lg:absolute lg:left-[44.4844rem] lg:top-[31.8281rem] lg:mt-0 lg:whitespace-nowrap lg:text-[1.7203rem] lg:leading-none lg:tracking-[0.3em]">

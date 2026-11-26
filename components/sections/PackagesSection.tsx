@@ -56,10 +56,10 @@ export const PackagesSection = ({ data }: { data?: PackagesData }) => {
           titleTop={data.titleTop}
           titleAccent={data.titleAccent}
           description={data.description}
-          titleSize="lg:mt-[1.0781rem] lg:text-[3.7734rem]"
+          titleSize="lg:mt-[1.0781rem]"
           descriptionClass="lg:mt-[0.1875rem] lg:text-[1.3453rem] lg:leading-[1.875rem]"
         />
-        <ul className="mx-auto mt-10 grid max-w-md gap-6 md:max-w-none md:grid-cols-2 lg:mt-[2.5313rem] lg:grid-cols-3 lg:gap-[1.3125rem]">
+        <ul className="mx-auto mt-8 grid max-w-md gap-5 sm:mt-10 sm:gap-6 md:max-w-none md:grid-cols-2 lg:mt-[2.5313rem] lg:grid-cols-3 lg:gap-[1.3125rem]">
           {data.items.map((item, index) => (
             <PackageCard key={item.id} item={item} checkIcon={data.checkIcon} index={index} />
           ))}

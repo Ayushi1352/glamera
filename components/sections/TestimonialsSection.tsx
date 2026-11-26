@@ -15,10 +15,10 @@ export const TestimonialsSection = ({ data }: { data?: TestimonialsData }) => {
           titleTop={data.titleTop}
           titleAccent={data.titleAccent}
           description={data.description}
-          titleSize="lg:mt-[1.3125rem] lg:text-[4.1859rem]"
+          titleSize="lg:mt-[1.3125rem]"
           descriptionClass="lg:-mt-[0.375rem] lg:text-[1.6406rem] lg:leading-[2.0625rem]"
         />
-        <div className="mt-6 lg:mt-[2.25rem]">
+        <div className="mt-4 sm:mt-6 lg:mt-[2.25rem]">
           <TestimonialSlider data={data} />
         </div>
       </div>

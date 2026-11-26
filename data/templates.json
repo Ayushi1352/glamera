@@ -12,14 +12,14 @@
       }
     },
     "metadata": {
-      "title": "Glaméra | Beauty Salon & Spa",
-      "description": "Expert beauty, skincare and wellness treatments for a more confident you. Facials, waxing, make-up, nails, hair care and bridal packages at Glaméra Beauty Salon & Spa.",
+      "title": "Glamera | Beauty Salon & Spa",
+      "description": "Expert beauty, skincare and wellness treatments for a more confident you. Facials, waxing, make-up, nails, hair care and bridal packages at Glamera Beauty Salon & Spa.",
       "icon": "/images/favicon.png",
       "lang": "en"
     },
     "company": {
       "logo": "/images/glamera-logo.webp",
-      "logoAlt": "Glaméra — Beauty Salon & Spa",
+      "logoAlt": "Glamera — Beauty Salon & Spa",
       "logoWidth": 1200,
       "logoHeight": 388,
       "contactItems": [
@@ -55,7 +55,7 @@
     },
     "Footer": {
       "description": "Your destination for expert beauty care,\nrelaxation, and a refreshing, confident look.",
-      "socialLabel": "Follow Glaméra",
+      "socialLabel": "Follow Glamera",
       "socialLinks": [
         {
           "id": "instagram",
@@ -129,7 +129,7 @@
         "email",
         "phone"
       ],
-      "copyrightText": "© {year} Glaméra Beauty Salon & Spa. All Rights Reserved. Powered by Lestow."
+      "copyrightText": "© {year} Glamera Beauty Salon & Spa. All Rights Reserved. Powered by Lestow."
     }
   },
   "categories": {
@@ -139,7 +139,7 @@
           "variants": {
             "BeautySalonHeader1": {
               "logoUrl": "/",
-              "homeLabel": "Glaméra — back to top",
+              "homeLabel": "Glamera — back to top",
               "navLinks": [
                 {
                   "id": "home",
@@ -189,7 +189,7 @@
               "titleBottom": "Natural",
               "titleAccent": "Beauty",
               "description": "Expert Beauty, Skincare & Wellness Treatments for a\nMore Confident You.",
-              "watermark": "Glaméra",
+              "watermark": "Glamera",
               "buttonText": "View Our Services",
               "buttonUrl": "#services",
               "photos": [
@@ -213,11 +213,11 @@
               "id": "about",
               "label": "About Us",
               "titleTop": "Welcome to",
-              "titleAccent": "Glaméra",
+              "titleAccent": "Glamera",
               "subtitle": "Beauty Salon & Spa",
-              "description": "At Glaméra, we believe beauty is a blend of care, expertise, and\nself-expression. Our skilled team is dedicated to providing personalized\nbeauty, skincare, and wellness treatments that enhance your natural glow\nand boost your confidence.",
+              "description": "At Glamera, we believe beauty is a blend of care, expertise, and\nself-expression. Our skilled team is dedicated to providing personalized\nbeauty, skincare, and wellness treatments that enhance your natural glow\nand boost your confidence.",
               "image": "/images/about-salon-interior.webp",
-              "imageAlt": "Glaméra salon with pink styling chairs, a marble counter and lit oval mirrors",
+              "imageAlt": "Glamera salon with pink styling chairs, a marble counter and lit oval mirrors",
               "badgeWords": [
                 "Beauty",
                 "Hair",
@@ -493,7 +493,7 @@
                 "We’re here to help — reach out to us today."
               ],
               "image": "/images/contact-stylist.webp",
-              "imageAlt": "Smiling Glaméra stylist taking notes on a tablet while talking with a client"
+              "imageAlt": "Smiling Glamera stylist taking notes on a tablet while talking with a client"
             }
           }
         },

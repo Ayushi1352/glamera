@@ -15,10 +15,10 @@ export const GallerySection = ({ data }: { data?: GalleryData }) => {
           titleTop={data.titleTop}
           titleAccent={data.titleAccent}
           description={data.description}
-          titleSize="lg:mt-[0.5156rem] lg:text-[3.5391rem]"
+          titleSize="lg:mt-[0.5156rem]"
           descriptionClass="lg:-mt-[0.3281rem] lg:text-[1.3125rem] lg:leading-[1.875rem]"
         />
-        <div className="mt-8 lg:mt-[1.875rem]">
+        <div className="mt-6 sm:mt-8 lg:mt-[1.875rem]">
           <GalleryGrid data={data} />
         </div>
       </div>

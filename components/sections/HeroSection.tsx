@@ -16,7 +16,7 @@ export const HeroSection = ({ data }: { data?: HeroData }) => {
   return (
     <section id={data.id} className="scroll-mt-[4.5rem] bg-[var(--color-bg-main)] pb-[var(--section-space)] sm:scroll-mt-[5rem] lg:scroll-mt-[6.5625rem]">
       <div className="relative isolate overflow-hidden bg-[var(--color-bg-hero)]">
-        <div className="relative mx-auto max-w-[90rem] px-4 pb-12 pt-10 sm:px-6 sm:pb-14 sm:pt-14 lg:h-[28.1719rem] lg:p-0">
+        <div className="relative mx-auto max-w-[90rem] px-4 pb-9 pt-8 sm:px-6 sm:pb-14 sm:pt-14 lg:h-[28.1719rem] lg:p-0">
           <p
             aria-hidden="true"
             className="pointer-events-none absolute -right-4 top-2 -z-10 select-none whitespace-nowrap font-script text-[7rem] leading-none text-[var(--color-watermark)] sm:right-0 sm:text-[10rem] lg:left-[41.25rem] lg:right-auto lg:top-[2.1563rem] lg:text-[13.1953rem]"
@@ -36,7 +36,7 @@ export const HeroSection = ({ data }: { data?: HeroData }) => {
             <span aria-hidden="true" className="mt-6 block h-[0.2rem] w-16 bg-[var(--color-primary)] lg:absolute lg:left-[8.0625rem] lg:top-[25.2188rem] lg:mt-0 lg:h-[0.2813rem] lg:w-[6.0469rem]" />
             <a
               href={data.buttonUrl}
-              className="mt-8 inline-flex h-14 items-center justify-center border-2 border-[var(--color-primary)] px-8 font-text text-sm font-semibold uppercase tracking-[0.13em] text-[var(--color-heading)] transition-colors duration-300 hover:bg-[var(--color-primary)] hover:text-[var(--color-white)] lg:absolute lg:left-[64.5469rem] lg:top-[16.7344rem] lg:mt-0 lg:h-[3.5625rem] lg:w-[17.4844rem] lg:border-[0.1406rem] lg:px-0 lg:text-[1.0547rem]"
+              className="mt-6 inline-flex h-14 items-center justify-center border-2 border-[var(--color-primary)] px-8 font-text text-sm font-semibold uppercase tracking-[0.13em] text-[var(--color-heading)] transition-colors duration-300 hover:bg-[var(--color-primary)] hover:text-[var(--color-white)] sm:mt-8 lg:absolute lg:left-[64.5469rem] lg:top-[16.7344rem] lg:mt-0 lg:h-[3.5625rem] lg:w-[17.4844rem] lg:border-[0.1406rem] lg:px-0 lg:text-[1.0547rem]"
             >
               {data.buttonText}
             </a>

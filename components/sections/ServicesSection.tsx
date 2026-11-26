@@ -15,11 +15,11 @@ export const ServicesSection = ({ data }: { data?: ServicesData }) => {
           titleTop={data.titleTop}
           titleAccent={data.titleAccent}
           description={data.description}
-          titleSize="lg:mt-[1.0313rem] lg:text-[3.9984rem]"
+          titleSize="lg:mt-[1.0313rem]"
           descriptionClass="lg:mt-[0.4219rem] lg:text-[1.3594rem] lg:leading-[1.9688rem]"
         />
 
-        <ul className="mt-12 grid gap-y-12 sm:grid-cols-2 lg:mt-[3.9844rem] lg:grid-cols-4 lg:gap-y-0">
+        <ul className="mt-9 grid gap-y-9 sm:mt-12 sm:grid-cols-2 sm:gap-y-12 lg:mt-[3.9844rem] lg:grid-cols-4 lg:gap-y-0">
           {data.items.map((item, index) => (
             <li
               key={item.id}

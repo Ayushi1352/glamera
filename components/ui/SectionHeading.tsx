@@ -30,6 +30,7 @@ const SectionLabel = ({ label, align = "center", className = "" }: LabelProps) =
 /** Two-tone title: the accent words in maroon italics */
 export const titleClass = "font-heading font-[460] leading-[1.1] tracking-[-0.01em] text-[var(--color-heading)]";
 export const accentClass = "whitespace-nowrap font-[460] italic text-[var(--color-primary)]";
+export const sectionTitleSize = "text-[length:min(2.4rem,calc((100vw-2rem)/10))] sm:text-[3rem] lg:text-[3.75rem]";
 
 type HeadingProps = {
   label: string;
@@ -47,7 +48,7 @@ export const SectionHeading = ({ label, titleTop, titleAccent, description, titl
   <div data-reveal className={`text-center ${className}`}>
     <SectionLabel label={label} />
     {/* on phones the size follows the screen width (at most 2.4rem) so a title never takes more than two lines */}
-    <h2 className={`mt-4 text-[length:min(2.4rem,calc((100vw-2rem)/9))] sm:text-[3rem] ${titleClass} ${titleSize}`}>
+    <h2 className={`mt-4 ${sectionTitleSize} ${titleClass} ${titleSize}`}>
       {titleTop} <span className={accentClass}>{titleAccent}</span>
     </h2>
     {description && (

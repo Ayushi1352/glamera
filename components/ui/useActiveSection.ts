@@ -23,6 +23,10 @@ export const useActiveSection = (ids: string[]) => {
         const el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top <= middle) current = id;
       }
+      if (ids.length > 0 && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        const lastId = ids[ids.length - 1];
+        if (document.getElementById(lastId)) current = lastId;
+      }
       setActive(current);
       setScrolled(window.scrollY > 8);
     };

@@ -77,7 +77,7 @@ export const TestimonialSlider = ({ data }: { data: TestimonialsData }) => {
         })}
       </div>
 
-      <div className="mt-8 flex justify-center gap-4 lg:mt-[2.0156rem] lg:gap-[1.2188rem]">
+      <div className="mt-6 flex justify-center gap-4 sm:mt-8 lg:mt-[2.0156rem] lg:gap-[1.2188rem]">
         {items.map((item, n) => (
           <button
             key={item.id}

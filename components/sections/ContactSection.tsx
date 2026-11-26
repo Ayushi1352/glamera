@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { ContactData, ContactFormData } from "@/types/templates.types";
 import { ContactForm } from "@/components/sections/ContactForm";
-import { accentClass, titleClass } from "@/components/ui/SectionHeading";
+import { accentClass, sectionTitleSize, titleClass } from "@/components/ui/SectionHeading";
 import { sectionSpace } from "@/components/ui/sectionSpace";
 
 /** The arch photo's corners: round at the top and bottom right, square at the bottom left (as % of the box) */
@@ -21,7 +21,7 @@ export const ContactSection = ({ data, form, serviceOptions }: Props) => {
 
   return (
     <section id={data.id} className={`scroll-mt-[4.5rem] bg-[var(--color-bg-main)] sm:scroll-mt-[5rem] lg:scroll-mt-[6.6094rem] ${sectionSpace}`}>
-      <div className="mx-auto grid max-w-[90rem] gap-12 px-4 sm:px-6 lg:grid-cols-[44.1563rem_32.9531rem] lg:justify-between lg:gap-0 lg:pl-[5.3906rem] lg:pr-[5.1094rem]">
+      <div className="mx-auto grid max-w-[90rem] gap-8 px-4 sm:gap-10 sm:px-6 lg:grid-cols-[44.1563rem_32.9531rem] lg:justify-between lg:gap-0 lg:pl-[5.3906rem] lg:pr-[5.1094rem]">
         <div className="lg:pt-[2.2969rem]">
           <div data-reveal>
             <p className="flex items-center gap-4 font-sans text-[1.05rem] font-semibold uppercase leading-none tracking-[0.2em] lg:tracking-[0.15em] text-[var(--color-primary-bright)] sm:text-[1.25rem] lg:gap-[1.2188rem] lg:text-[1.7344rem]">
@@ -29,7 +29,7 @@ export const ContactSection = ({ data, form, serviceOptions }: Props) => {
               <span className="-mr-[0.2em] lg:-mr-[0.15em]">{data.label}</span>
               <span aria-hidden="true" className="h-[0.0938rem] w-12 shrink-0 bg-current lg:ml-[0.6094rem] lg:w-[3.75rem]" />
             </p>
-            <h2 className={`mt-4 text-[length:min(2.6rem,calc((100vw-2rem)/8.4))] sm:text-[3.2rem] lg:mt-[1.6406rem] lg:text-[3.8906rem] lg:leading-none ${titleClass}`}>
+            <h2 className={`mt-4 ${sectionTitleSize} lg:mt-[1.6406rem] lg:leading-none ${titleClass}`}>
               {data.titleTop} <span className={accentClass}>{data.titleAccent}</span>
             </h2>
             <p className="mt-4 font-form text-base leading-relaxed text-[var(--color-text-soft)] sm:text-lg lg:mt-[0.5156rem] lg:text-[1.2984rem] lg:leading-[1.7813rem]">
